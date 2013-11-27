@@ -10,6 +10,7 @@
 
     <properties>
         <jetty.version>9.1.0.RC1</jetty.version>
+        <rome.version>0.9</rome.version>
     </properties>
 
     <dependencies>
@@ -24,6 +25,13 @@
             <artifactId>websocket-server</artifactId>
             <version>${jetty.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>rome</groupId>
+            <artifactId>rome</artifactId>
+            <version>${rome.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
